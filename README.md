@@ -1,8 +1,14 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## Criar um projeto em NextJS
 
-First, run the development server:
+```bash
+npx create-next-app@latest ssr-marketing-labs  
+```
+
+## Primeiros Passos
+
+Primeiro, execute seu projeto com:
 
 ```bash
 npm run dev
