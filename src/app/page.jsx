@@ -1,11 +1,25 @@
-import Heading from "@/components/Heading";
+import Banner from "@/components/Banner"
+import Footer from "@/components/Footer"
+import Header from "@/components/Heading"
+import Navbar from "@/components/Navbar"
+import Reviews from "@/components/Reviews"
+import Services from "@/components/Services"
+import Team from "@/components/Team"
 
-export default function Home() {
+function App() {
+
   return (
-   <main>
-    <Heading>
-      Olá, mundo!
-    </Heading>
-   </main>
-  );
+    <>
+      <Header>
+        <Navbar />
+        <Banner />
+      </Header>
+      <Services />
+      <Team />
+      <Reviews />
+      <Footer />
+    </>
+  )
 }
+
+export default App
